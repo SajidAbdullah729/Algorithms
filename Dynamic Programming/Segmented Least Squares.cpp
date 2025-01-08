@@ -131,6 +131,7 @@ inline void getSegments()
     stack<Segment> S;
     int currInd = n;
     while (currInd > 1)
+     
     {
         int nextInd = retIndex[currInd];
         if (nextInd == currInd)
